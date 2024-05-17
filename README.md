@@ -8,6 +8,10 @@ Zedokai with darker backgrounds.
 
 Put it here: `~/.config/zed/themes`. Then `command` + `shift` + `p` and type `theme` and select `Zedokai Darker (Filter Spectrum)`.
 
+### Settings
+
+`command` + `,`: paste in `settings.json`
+
 ### Theme Schema for Modifying Themes
 
 [Theme Schema](https://zed.dev/schema/themes/v0.1.0.json)
