@@ -12,4 +12,4 @@ Put it here: `~/.config/zed/themes`. Then `command` + `shift` + `p` and type `th
 
 [Theme Schema](https://zed.dev/schema/themes/v0.1.0.json)
 
-![image](https://github.com/arbitrarily/zed-settings/assets/899183/d6ad813f-52ba-40b8-b860-7ce9b00811cc)
+![image](https://github.com/arbitrarily/zed-settings/assets/899183/3dfd7928-bb64-40c4-87ec-7b9204d884e0)
