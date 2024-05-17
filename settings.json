@@ -1,0 +1,74 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "theme": "Zedokai Darker (Filter Spectrum)",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+  "features": {
+    // Which inline completion provider to use.
+    "inline_completion_provider": "copilot"
+  },
+  "base_keymap": "SublimeText",
+  "ui_font_size": 12,
+  "buffer_font_size": 12,
+  "tab_size": 2,
+  "tabs": {
+    "git_status": true
+  },
+  "active_pane_magnification": 1.3,
+  "show_whitespaces": "none",
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "format_on_save": "on",
+  "indent_style": "space",
+  "show_copilot_suggestions": true,
+  "line_ending": "lf",
+  "scrollbar": {
+    "show": "system"
+  },
+  "git_diff": true,
+  "git": {
+    "git_gutter": "tracked_files"
+  },
+  "scroll_past_end": true,
+  "ui_font_family": "Hack Nerd Font",
+  "buffer_font_family": "Hack Nerd Font",
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+  "lsp": {
+    "eslint": {
+      "settings": {
+        "codeActionOnSave": {
+          "rules": ["import/order"]
+        }
+      }
+    }
+  },
+  "language_overrides": {
+    "Python": {
+      "format_on_save": {
+        "external": {
+          "command": "black",
+          "arguments": ["-"]
+        }
+      }
+    }
+  }
+}
