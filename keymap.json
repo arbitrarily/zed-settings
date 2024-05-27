@@ -7,6 +7,9 @@
       "ctrl-pageup": "pane::ActivateNextItem",
       "ctrl-shift-tab": "pane::ActivateNextItem",
       "ctrl-tab": "pane::ActivatePrevItem",
+      "cmd-j": "workspace::ToggleLeftDock",
+      "cmd-k": "workspace::ToggleRightDock",
+      "cmd-b": "workspace::ToggleBottomDock",
       "cmd-+": "zed::IncreaseBufferFontSize"
     }
   },
@@ -15,7 +18,7 @@
     "bindings": {
       "cmd-ctrl-up": "editor::MoveLineUp",
       "cmd-ctrl-down": "editor::MoveLineDown",
-      "cmd-shift-d": "editor::DuplicateLineUp",
+      "cmd-shift-d": "editor::DuplicateLineDown",
       "ctrl-shift-up": "editor::AddSelectionAbove",
       "ctrl-shift-down": "editor::AddSelectionBelow",
       "cmd-shift-space": "editor::SelectAll",
