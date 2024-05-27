@@ -15,8 +15,7 @@
     "Python": true,
     "NGINX": true,
     "SCSS": true,
-    "XML": true,
-    "base16": true
+    "XML": true
   },
   "soft_wrap": "editor_width",
   "ui_font_size": 13,
