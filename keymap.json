@@ -44,13 +44,6 @@
     }
   },
   {
-    "context": "Pane",
-    "bindings": {
-      "f4": "search::SelectNextMatch",
-      "shift-f4": "search::SelectPrevMatch"
-    }
-  },
-  {
     "context": "Workspace",
     "bindings": {
       "cmd-k cmd-b": "workspace::ToggleLeftDock",
